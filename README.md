@@ -1,4 +1,8 @@
 # Libft
 _voici ma libft pour l'école 42_
 
-_Il s'agit de toutes mes fonctions outils_
+## Table of content
+
+1. [ft_atoi] (#ft_atoi)
+
+## ft_atoi
