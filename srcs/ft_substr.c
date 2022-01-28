@@ -22,7 +22,7 @@ static size_t	ft_strlen_b(const char *str)
 	return (i);
 }
 
-char			*ft_substr(char const *s, unsigned int start, size_t len)
+char	*ft_substr(char const *s, unsigned int start, size_t len)
 {
 	char			*ret;
 	unsigned int	i;
@@ -32,7 +32,8 @@ char			*ft_substr(char const *s, unsigned int start, size_t len)
 	if (!s)
 		return (NULL);
 	max_size = ft_strlen_b(s);
-	if (!(ret = (char*)malloc(sizeof(char) * (len + 1))))
+	ret = (char *)malloc(sizeof(char) * (len + 1));
+	if (ret == NULL)
 		return (NULL);
 	while (i < len && s[i] && start < max_size)
 	{

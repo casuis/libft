@@ -22,13 +22,14 @@ static size_t	ft_strlen_b(const char *str)
 	return (i);
 }
 
-char			*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	char		*ret;
 	int			i;
 
 	i = 0;
-	if (!(ret = (char*)malloc(sizeof(char) * (ft_strlen_b(s1) + 1))))
+	ret = (char *)malloc(sizeof(char) * (ft_strlen_b(s1) + 1));
+	if (ret == NULL)
 		return (NULL);
 	while (s1[i])
 	{

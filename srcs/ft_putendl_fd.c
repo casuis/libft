@@ -12,7 +12,7 @@
 
 #include "../includes/libft.h"
 
-static int		ft_strlen_b(char *str)
+static int	ft_strlen_b(char *str)
 {
 	int		i;
 
@@ -22,7 +22,7 @@ static int		ft_strlen_b(char *str)
 	return (i);
 }
 
-void			ft_putendl_fd(char *s, int fd)
+void	ft_putendl_fd(char *s, int fd)
 {
 	if (!s)
 		return ;

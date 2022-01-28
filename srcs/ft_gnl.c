@@ -1,50 +1,56 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_gnl.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: asimon <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/11/13 14:16:59 by asimon            #+#    #+#             */
-/*   Updated: 2020/01/15 15:58:30 by asimon           ###   ########.fr       */
+/*   Created: 2022/01/04 15:53:57 by asimon            #+#    #+#             */
+/*   Updated: 2022/01/08 22:51:34 by asimon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-static size_t	ft_strlen_b(const char *str)
+char	*ft_stradd(char *str, char buff)
 {
 	int		i;
+	char	*ret;
 
 	i = 0;
-	while (str[i])
-		i++;
-	return (i);
-}
-
-char	*ft_strjoin(char const *s1, char const *s2)
-{
-	int			i;
-	int			size;
-	char		*ret;
-
-	i = 0;
-	size = ft_strlen_b(s1) + ft_strlen_b(s2);
-	ret = (char *)malloc(sizeof(char) * (size + 1));
+	ret = (char *)malloc(sizeof(char) * (ft_strlen(str) + 2));
 	if (ret == NULL)
 		return (NULL);
-	while (*s1)
+	while (str[i])
 	{
-		ret[i] = *s1;
-		i++;
-		s1++;
-	}
-	while (*s2)
-	{
-		ret[i] = *s2;
-		s2++;
+		ret[i] = str[i];
 		i++;
 	}
-	ret[i] = '\0';
+	free(str);
+	ret[i] = buff;
+	ret[++i] = '\0';
+	return (ret);
+}
+
+int	gnl(int fd, char **str)
+{
+	char			buff;
+	int				ret;
+
+	ret = read(fd, &buff, 1);
+	while (ret > 0)
+	{
+		*str = ft_stradd(*str, buff);
+		if (buff == '\n')
+			return (ret);
+		else
+			ret += 1;
+		ret = read(fd, &buff, 1);
+	}
+	if (ret == 0)
+	{
+		free(*str);
+		*str = NULL;
+	}
 	return (ret);
 }

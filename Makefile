@@ -46,7 +46,10 @@ FILES_C		= 	ft_atoi.c			\
 				ft_putendl_fd.c		\
 				ft_putnbr_fd.c		\
 				ft_calloc.c			\
-
+				ft_gnl.c			\
+				ft_putchar.c		\
+				ft_putstr.c			\
+				ft_strncpy.c		\
 
 DIR_C		=	./srcs/
 

@@ -12,7 +12,7 @@
 
 #include "../includes/libft.h"
 
-void		ft_bzero(void *s, size_t n)
+void	ft_bzero(void *s, size_t n)
 {
 	unsigned int	i;
 
@@ -20,6 +20,6 @@ void		ft_bzero(void *s, size_t n)
 	if (n > 0)
 	{
 		while (++i < n)
-			*((char*)s + i) = '\0';
+			*((char *)s + i) = '\0';
 	}
 }

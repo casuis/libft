@@ -22,11 +22,11 @@ static size_t	ft_strlen_b(const char *str)
 	return (i);
 }
 
-static char		*ft_strchr_b(const char *s, int c)
+static char	*ft_strchr_b(const char *s, int c)
 {
 	char			*ret;
 
-	ret = (char*)s;
+	ret = (char *)s;
 	while (*ret)
 	{
 		if ((unsigned char)*ret == c)
@@ -38,7 +38,7 @@ static char		*ft_strchr_b(const char *s, int c)
 	return (NULL);
 }
 
-static char		*ft_substr_b(char const *s, unsigned int start, size_t len)
+static char	*ft_substr_b(char const *s, unsigned int start, size_t len)
 {
 	char			*ret;
 	unsigned int	i;
@@ -46,7 +46,8 @@ static char		*ft_substr_b(char const *s, unsigned int start, size_t len)
 
 	max_size = ft_strlen_b(s);
 	i = 0;
-	if (!(ret = (char*)malloc(sizeof(char) * (len + 1))))
+	ret = (char *)malloc(sizeof(char) * (len + 1));
+	if (ret == NULL)
 		return (NULL);
 	while (i < len && s[i] && start < max_size)
 	{
@@ -57,7 +58,7 @@ static char		*ft_substr_b(char const *s, unsigned int start, size_t len)
 	return (ret);
 }
 
-char			*ft_strtrim(char const *s1, char const *set)
+char	*ft_strtrim(char const *s1, char const *set)
 {
 	unsigned int	x;
 	unsigned int	len;

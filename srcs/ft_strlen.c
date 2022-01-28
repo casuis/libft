@@ -6,18 +6,22 @@
 /*   By: asimon <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/04 17:01:29 by asimon            #+#    #+#             */
-/*   Updated: 2020/01/15 15:56:37 by asimon           ###   ########.fr       */
+/*   Updated: 2022/01/08 22:04:25 by asimon           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-size_t		ft_strlen(const char *str)
+size_t	ft_strlen(const char *str)
 {
 	int		i;
 
-	i = 0;
-	while (str[i])
-		i++;
-	return (i);
+	if (str != NULL)
+	{
+		i = 0;
+		while (str[i])
+			i++;
+		return (i);
+	}
+	return (0);
 }

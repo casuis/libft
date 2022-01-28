@@ -22,7 +22,7 @@ static size_t	ft_strlen_b(char *s)
 	return (i);
 }
 
-char			*ft_strmapi(char const *s, char (*f)(unsigned int, char))
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	int		i;
 	char	*ret;
@@ -31,8 +31,9 @@ char			*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	i = 0;
 	if (!s)
 		return (NULL);
-	size = ft_strlen_b((char*)s);
-	if (!(ret = (char*)malloc(sizeof(char) * (size + 1))))
+	size = ft_strlen_b((char *)s);
+	ret = (char *)malloc(sizeof(char) * (size + 1));
+	if (ret == NULL)
 		return (NULL);
 	while (s[i])
 	{
