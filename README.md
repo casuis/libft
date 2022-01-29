@@ -1,7 +1,7 @@
 # Libft
 _voici ma libft pour l'école 42_
 
-_Je rajouterai des fonctions au fur et a mesure afin de faciliter mes prochains programmes_
+_Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains programmes_
 
 ## Table of content
 
