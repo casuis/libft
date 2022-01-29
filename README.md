@@ -1,5 +1,5 @@
 # Libft
-_voici ma libft pour l'école 42_
+_Voici ma libft pour l'école 42 - année 2019_
 
 _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains programmes_
 
