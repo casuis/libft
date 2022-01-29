@@ -46,6 +46,7 @@ _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains
 39. [ft_strncpy](#ft_strncpy)
 
 ***
+
 ## ft_atoi
 
 ### Idée global
@@ -70,10 +71,11 @@ str = "42";
 ret = ft_atoi(str);
 ```
 ***
+
 ## ft_bzero
 
 ### Idée global
-Insére dans le pointeur * *s* *n* '\0'
+Insére dans le pointeur (* *s*), un nombre *n* '\0'
 
 ### Prototype
 ```
@@ -95,18 +97,35 @@ size = 42;
 str = (char *)malloc(sizeof(char) * (size + 1));
 ft_bzero(str, size);
 ```
+
 ***
+
 ## ft_calloc
 
 ### Idée Global
+Alloue sur la heap et initialise ses cases a '\0'
 
 ### Prototype
+```
+void  ft_calloc(size_t count, size_t size)
+```
 
 ### Arguments
+Un *size_t size* representant la taille d'un type de case (int, char, unsigned int...), et un *size_t count* representant le nombre de cases.
 
 ### Return
+Retourne une chaine de caractères '\0' allouée sur la heap 
 
 ### Appel
+```
+char    *str;
+size_t  count;
+size_t  size;
+
+size = sizeof(int);
+count = 42;
+str = ft_calloc(count, size);
+```
 
 ***
 ## ft_isalnum
