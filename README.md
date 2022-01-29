@@ -47,6 +47,7 @@ _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains
 
 ***
 
+
 ## ft_atoi
 
 ### Idée global
@@ -71,6 +72,7 @@ str = "42";
 ret = ft_atoi(str);
 ```
 ***
+
 
 ## ft_bzero
 
@@ -100,6 +102,7 @@ ft_bzero(str, size);
 
 ***
 
+
 ## ft_calloc
 
 ### Idée Global
@@ -128,6 +131,8 @@ str = ft_calloc(count, size);
 ```
 
 ***
+
+
 ## ft_isalnum
 
 ### Idée Global
