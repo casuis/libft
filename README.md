@@ -10,7 +10,7 @@ _voici ma libft pour l'école 42_
 5. [ft_isalnum](##ft_isalnum)
 6. [ft_isalpha](##ft_isalpha)
 7. [ft_isascii](##ft_isascii)
-8. [ft_isdigit]
+8. [ft_isdigit](##ft_isdigit)
 9. [ft_isprint](##ft_isprint)
 10. [ft_itoa](##ft_itoa)
 11. [ft_memccpy](##ft_memccpy)
@@ -45,77 +45,77 @@ _voici ma libft pour l'école 42_
 
 ## ft_atoi
 ***
-##ft_bzero
+## ft_bzero
 ***
-##ft_calloc
+## ft_calloc
 ***
-##ft_isalnum
+## ft_isalnum
 ***
-##ft_isalpha
+## ft_isalpha
 ***
-##ft_isascii
+## ft_isascii
 ***
-##ft_isdigit
+## ft_isdigit
 ***
-##ft_isprint
+## ft_isprint
 ***
-##ft_itoa
+## ft_itoa
 ***
-##ft_memccpy
+## ft_memccpy
 ***
-##ft_memchr
+## ft_memchr
 ***
-##ft_memcmp
+## ft_memcmp
 ***
-##ft_memcpy
+## ft_memcpy
 ***
-##ft_memmove
+## ft_memmove
 ***
-##ft_memset
+## ft_memset
 ***
-##ft_putchar
+## ft_putchar
 ***
-##ft_putendl
+## ft_putendl
 ***
-##ft_putnbr_fd
+## ft_putnbr_fd
 ***
-##ft_putstr_fd
+## ft_putstr_fd
 ***
-##ft_count_word
+## ft_count_word
 ***
-##ft_strchr
+## ft_strchr
 ***
-##ft_split
+## ft_split
 ***
-##ft_strdup
+## ft_strdup
 ***
-##ft_strjoin
+## ft_strjoin
 ***
-##ft_strlcat
+## ft_strlcat
 ***
-##ft_strlcpy
+## ft_strlcpy
 ***
-##ft_strlen
+## ft_strlen
 ***
-##ft_strmapi
+## ft_strmapi
 ***
-##ft_strncmp
+## ft_strncmp
 ***
-##ft_strnstr
+## ft_strnstr
 ***
-##ft_strrchr
+## ft_strrchr
 ***
-##ft_strtrim
+## ft_strtrim
 ***
-##ft_substr
+## ft_substr
 ***
-##ft_tolower
+## ft_tolower
 ***
-##ft_toupper
+## ft_toupper
 ***
-##ft_putchar
+## ft_putchar
 ***
-##ft_putstr
+## ft_putstr
 ***
-##ft_strncpy
+## ft_strncpy
 ***
