@@ -3,10 +3,10 @@ _voici ma libft pour l'école 42_
 
 ## Table of content
 
-1. [ft_atoi](##ft_atoi)
-2. [ft_bzero](##ft_bzero)
-3. [ft_calloc](##ft_calloc)
-4. [ft_gnl](##ft_gnl)
+1. [ft_atoi](#ft_atoi)
+2. [ft_bzero](#ft_bzero)
+3. [ft_calloc](#ft_calloc)
+4. [ft_gnl](#ft_gnl)
 5. [ft_isalnum](##ft_isalnum)
 6. [ft_isalpha](##ft_isalpha)
 7. [ft_isascii](##ft_isascii)
