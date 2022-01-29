@@ -69,7 +69,7 @@ char  *str;
 int   ret
 
 str = "42";
-ret = ft_atoi(str);
+ret = ft_atoi(str); // Retourne 42
 ```
 ***
 
@@ -117,7 +117,7 @@ void  ft_calloc(size_t count, size_t size)
 Un *size_t size* representant la taille d'un type de case (int, char, unsigned int...), et un *size_t count* representant le nombre de cases.
 
 ### Return
-Retourne une chaine de caractères '\0' allouée sur la heap 
+Retourne un pointeur sur une chaine de caractères '\0' allouée sur la heap 
 
 ### Appel
 ```
@@ -129,88 +129,181 @@ size = sizeof(int);
 count = 42;
 str = ft_calloc(count, size);
 ```
-
 ***
-
 
 ## ft_isalnum
 
 ### Idée Global
+Verifie si un caractère est alphanumérique 
 
 ### Prototype
+```
+int   ft_isalnum(char c)
+```
 
 ### Arguments
+Prend un *char c*
 
 ### Return
+Retourne 1 si alphanumérique, 0 si non.
 
 ### Appel
+```
+char  str[3];
 
+str[0] = '4';
+str[1] = '2';
+str[2] = ' ';
+ft_isalnum(str[0]); // Retourne 1
+ft_isalnum(str[1]); // Retourne 1
+ft_isalnum(str[2]); // Retourne 0
+```
 ***
+
 ## ft_isalpha
 
 ### Idée Global
+Verifie si le caractère est alphabétique (minuscule ou majuscule)
 
 ### Prototype
+```
+int   ft_isalpha(char c)
+```
 
 ### Arguments
+Prend un *char c*
 
 ### Return
+Retourne 1 si le caractère est alphabétique, 0 si non.
 
 ### Appel
+```
+char   yes;
+char   no;
+
+yes = 'a';
+no = ' ';
+ft_isaplha(yes); // Retourne 1
+ft_isalpha(no); // Retourne 0
+```
 
 ***
+
 ## ft_isascii
 
 ### Idée Global
+Verifie si le caractère fait partie de la table ascii (valeur du char entre 0 et 127)
 
 ### Prototype
+```
+int   ft_isascii(char c)
+```
 
 ### Arguments
+Prend un *char c*
 
 ### Return
+Retourne 1 si le caractère est dans la table ascii, 0 si non.
 
 ### Appel
+```
+char    yes;
+char    no;
+
+yes = '0'; // Code ascii => 48
+no = 'ç'; // Code ascii => 128
+ft_isascii(yes); // Retourne 1
+ft_isascii(no); // Retourne 0
+```
 
 ***
+
 ## ft_isdigit
 
 ### Idée Global
+Verifie si le caractère est numérique (code ascii entre 48 et 57)
 
 ### Prototype
+```
+int   ft_isdigit(char c)
+```
 
 ### Arguments
+Prend un *char c*
 
 ### Return
+Retourne 1 si le caractère est numérique, 0 si non.
 
 ### Appel
+```
+char    yes;
+char    no;
+
+yes = '0';
+no = 'a';
+ft_isdigit(yes); // Retourne 1
+ft_isdigit(no); // Retourne 0
+```
 
 ***
+
 ## ft_isprint
 
 ### Idée Global
+Verifie si le caractère peut etre afficher (code ascii entre 32 et 126)
 
 ### Prototype
+```
+int   ft_isprint(char c)
+```
 
 ### Arguments
+Prend un *char c*
 
 ### Return
+Retourne 1 si le caractère est affichable, 0 si non.
 
 ### Appel
+```
+char    yes;
+char    no;
+
+yes = ' ';
+no = '\0';
+
+ft_isprint(yes); // Retourne 1
+ft_isprint(no); // Retourne 0
+```
 
 ***
+
 ## ft_itoa
 
 ### Idée Global
+Convertie un int en une chaine de caractère
 
 ### Prototype
+```
+char    *ft_itoa(int n)
+```
 
 ### Arguments
+Prend un *int n*
 
 ### Return
+Retourne un pointeur sur une chaine de caractères  
 
 ### Appel
+```
+int   n;
+char  *ret;
+
+n = 42;
+ret = ft_itoa(n); // ret[0] == '4', ret[1] == '2'
+```
 
 ***
+
 ## ft_memccpy
 
 ### Idée Global
