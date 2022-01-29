@@ -45,8 +45,8 @@ _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains
 38. [ft_putstr](#ft_putstr)
 39. [ft_strncpy](#ft_strncpy)
 
-## ft_atoi
 ***
+## ft_atoi
 
 ### Idée global
 Convertion d'une string en integer.
@@ -73,13 +73,28 @@ ret = ft_atoi(str);
 ## ft_bzero
 
 ### Idée global
-Insere dans le pointeur 
+Insére dans le pointeur */*s* *n* '\0'
+
+### Prototype
+```
+void  ft_bzero(char *s, size_t n)
+```
 
 ### Arguments 
+Un pointeur sur */*s*
 
 ### Return
+Rien
 
 ### Appel
+```
+char    *str;
+int     size;
+
+size = 42;
+str = (char *)malloc(sizeof(char) * (size + 1));
+ft_bzero(str, size);
+```
 
 ## ft_calloc
 ***
