@@ -47,6 +47,23 @@ _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains
 
 ## ft_atoi
 ***
+
+#### Idée global
+Convertion d'une string en integer
+
+#### Return
+Retourne un int
+
+#### Appel
+```
+char  *str;
+int   ret
+
+str = "42";
+ret = ft_atoi(str);
+printf("Valeur de ret: %d\n", ret);
+return (0);
+```
 ## ft_bzero
 ***
 ## ft_calloc
