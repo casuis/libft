@@ -73,7 +73,7 @@ ret = ft_atoi(str);
 ## ft_bzero
 
 ### Idée global
-Insére dans le pointeur */*s* *n* '\0'
+Insére dans le pointeur * *s* *n* '\0'
 
 ### Prototype
 ```
@@ -81,7 +81,7 @@ void  ft_bzero(char *s, size_t n)
 ```
 
 ### Arguments 
-Un pointeur sur */*s*
+Un pointeur sur * *s*
 
 ### Return
 Rien
@@ -95,76 +95,472 @@ size = 42;
 str = (char *)malloc(sizeof(char) * (size + 1));
 ft_bzero(str, size);
 ```
-
+***
 ## ft_calloc
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_isalnum
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_isalpha
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_isascii
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_isdigit
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_isprint
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_itoa
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_memccpy
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_memchr
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_memcmp
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_memcpy
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_memmove
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_memset
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_putchar
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_putendl
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_putnbr_fd
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_putstr_fd
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_count_word
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strchr
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_split
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strdup
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strjoin
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strlcat
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strlcpy
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strlen
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strmapi
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strncmp
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strnstr
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strrchr
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strtrim
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_substr
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_tolower
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_toupper
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_putchar
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_putstr
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
 ## ft_strncpy
+
+### Idée Global
+
+### Prototype
+
+### Arguments
+
+### Return
+
+### Appel
+
 ***
