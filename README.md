@@ -48,11 +48,14 @@ _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains
 ## ft_atoi
 ***
 
-#### Idée global
-Convertion d'une string en integer
+### Idée global
+Convertion d'une string en integer.
 
-#### Return
-Retourne un int
+### Arguments
+Une chaine de caracteres remplis de chiffres.
+
+### Return
+Retourne un int, retourne 0 si rien n'est a convertir.
 
 #### Appel
 ```
@@ -61,11 +64,17 @@ int   ret
 
 str = "42";
 ret = ft_atoi(str);
-printf("Valeur de ret: %d\n", ret);
-return (0);
 ```
 ## ft_bzero
 ***
+### Idée global
+
+### Arguments 
+
+### Return
+
+### Appel
+
 ## ft_calloc
 ***
 ## ft_isalnum
