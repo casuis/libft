@@ -51,6 +51,10 @@ _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains
 ### Idée global
 Convertion d'une string en integer.
 
+### Prototype
+```
+int   ft_atoi(char *str)
+```
 ### Arguments
 Une chaine de caracteres remplis de chiffres.
 
@@ -65,9 +69,11 @@ int   ret
 str = "42";
 ret = ft_atoi(str);
 ```
+***
 ## ft_bzero
 ***
 ### Idée global
+Insere dans le pointeur 
 
 ### Arguments 
 
