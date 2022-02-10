@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "../includes/libft.h"
+#include "../includes/libft.h"
 
 void	ft_putnbr(int nb, int base)
 {
@@ -32,13 +32,4 @@ void	ft_putnbr(int nb, int base)
 	if (nb / base > 0)
 		ft_putnbr(nb / base, base);
 	ft_putchar(base_set[i]);
-}
-
-int	main(int argc, char **argv)
-{
-	if (argc == 2)
-		ft_putnbr(ft_atoi(argv[1]), 10);
-	if (argc == 3)
-		ft_putnbr(ft_atoi(argv[1]), ft_atoi(argv[2]));
-	return (0);
 }
