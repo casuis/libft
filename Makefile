@@ -50,6 +50,7 @@ FILES_C		= 	ft_atoi.c			\
 				ft_putchar.c		\
 				ft_putstr.c			\
 				ft_strncpy.c		\
+				ft_putnbr.c			\
 
 DIR_C		=	./srcs/
 
