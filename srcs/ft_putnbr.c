@@ -16,7 +16,7 @@ void	ft_putnbr(int nb, int base)
 {
 	char	*base_set;
 	int		i;
-
+	
 	if (nb < 0)
 	{
 		if (nb == -2147483648)

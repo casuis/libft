@@ -55,6 +55,7 @@ int					gnl(int fd, char **str);
 void				ft_putchar(char c);
 void				ft_putstr(char *str);
 char				*ft_strncpy(char *str, int nb);
+void				ft_putnbr(int nb, int base);
 
 typedef struct s_list
 {
