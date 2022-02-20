@@ -1,4 +1,7 @@
 # Libft
+
+[![asimon's 42Project Score](https://badge42.herokuapp.com/api/project/asimon/Libft)](https://github.com/JaeSeoKim/badge42)
+
 _Voici ma libft pour l'école 42 - 2019_
 
 _Je rajouterai des fonctions au fur et à mesure afin de faciliter mes prochains programmes_
